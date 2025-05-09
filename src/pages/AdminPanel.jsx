@@ -86,7 +86,7 @@ function AdminPanel() {
       <h1>Admin Panel</h1>
       {error && <div className="text-danger">{error}</div>}
 
-      <h2>Current talent</h2>
+      <h2>Current models</h2>
       <DragDropContext onDragEnd={handleReorder}>
         <Droppable droppableId="artists">
           {(provided) => (
@@ -122,13 +122,13 @@ function AdminPanel() {
         </Droppable>
       </DragDropContext>
 
-      <h2>Add New talent</h2>
+      <h2>Add New model</h2>
       <form onSubmit={(e) => { e.preventDefault(); handleAddArtist(); }}>
         <div className="mb-3">
           <input
             type="text"
             className="form-control"
-            placeholder="Talent Name"
+            placeholder="model Name"
             value={newArtist.name}
             onChange={(e) => setNewArtist({ ...newArtist, name: e.target.value })}
             required
@@ -145,7 +145,7 @@ function AdminPanel() {
           />
         </div>
         <button type="submit" className="btn btn-success">
-          Add talent
+          Add model
         </button>
       </form>
     </div>
