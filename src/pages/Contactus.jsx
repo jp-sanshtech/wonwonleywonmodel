@@ -1,4 +1,3 @@
-import React from 'react';
 import BackButton from '../components/main/BackButton.jsx';
 import Line from '../components/main/Line.jsx';
 import classes from '../components/css/Home.module.css';
@@ -14,13 +13,13 @@ const Contactus = () => {
             className={classes.contactText} 
             style={{ marginTop: "28px", lineHeight: "1.47", padding: "0 1px" }} // Adjust lineHeight and padding for better spacing
           >
-           to become one of our talents, work with us, hire our talents, or for any other questions, email us at{' '}
+           to become a model, work with us, hire our models, or for any other questions, email us at{' '}
             <a 
-              href="mailto:support@wonwonleywontalent.com" 
+              href="mailto:support@wonwonleywonmodels.com" 
               className={classes.emailLink} 
               style={{ color: "black", marginTop: "25px" }}
             >
-              support@wonwonleywontalent.com
+              support@wonwonleywonmodels.com
             </a>
           </p>
         </div>
