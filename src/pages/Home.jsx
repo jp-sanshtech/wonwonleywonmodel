@@ -20,7 +20,7 @@ const Home = () => {
 
       <Line type="bottom-line">
         <a
-          href="https://www.instagram.com/wonwonleywontalent"
+          href="https://www.instagram.com/wonwonleywonmodels"
           target="_blank"
           rel="noopener noreferrer"
           className={classes.navLink}
