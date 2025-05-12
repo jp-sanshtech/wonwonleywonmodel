@@ -6,6 +6,7 @@ import Aboutus from './pages/Aboutus';
 import Home from './pages/Home';
 import Contactus from './pages/Contactus';
 import Artists from './pages/Artists';
+import classes from "./components/css/Home.module.css";
 import LoginPage from './pages/Login';
 import AdminPanel from './pages/AdminPanel';
 
@@ -14,6 +15,8 @@ const App = () => {
   return (
 <>
       <Head></Head>
+      <div className={classes.links}>
+
     <Routes>
 
       <Route path="/" element={<Home />} />
@@ -23,6 +26,7 @@ const App = () => {
       <Route path="/adminlogin" element={<LoginPage />} />
       <Route path="/admin-panel" element={<AdminPanel />} />
     </Routes>
+      </div>
 </>
   );
 };
