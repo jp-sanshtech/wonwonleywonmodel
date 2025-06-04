@@ -13,7 +13,7 @@ const Aboutus = () => {
         style={{ flexDirection: 'column', alignItems: 'flex-start', padding: '1rem' }}
       >
         <p>
-        we are a model agency, currently focused on females in los angeles. many of our models are also influencers/content creators. we hope our agency can support these models to become the best version of themselves.
+        we are a model agency, currently focused on female models. many of our models are also influencers/content creators. we hope our agency can support these models to become the best version of themselves.
         </p>
         <p style={{ margin: 0 }}>
           we are a company of the{" "}
