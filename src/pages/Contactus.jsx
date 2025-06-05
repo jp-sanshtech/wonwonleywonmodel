@@ -6,24 +6,18 @@ import classes from '../components/css/Home.module.css';
 const Contactus = () => {
   return (
     <>
+      <div className={classes.links}>
       <BackButton />
-      <Line type="bottom-lin">
-        <div className={classes.contactContainer}>
-          <p 
-            className={classes.contactText} 
-            style={{ marginTop: "28px", lineHeight: "1.47", padding: "0 1px" }} // Adjust lineHeight and padding for better spacing
-          >
-           to become a model, work with us, hire our models, or for any other questions, email us at{' '}
-            <a 
-              href="mailto:support@wonwonleywonmodels.com" 
-              className={classes.emailLink} 
-              style={{ color: "black", marginTop: "25px" }}
-            >
-              support@wonwonleywonmodels.com
-            </a>
-          </p>
-        </div>
+      <Line
+        to="/world/oneofoneluxury"
+        className={classes.navLink}
+        style={{ flexDirection: 'column', alignItems: 'flex-start', padding: '1rem' }}
+      >
+         <p>
+          to become one of our models, work with us, hire our models, or for any other questions, email us at  <a href="mailto:support@wonwonleywonmodels.com" style={{ color: "black", textDecoration: "underline" }}>support@wonwonleywonmodels.com</a>.
+        </p>
       </Line>
+    </div>
     </>
   );
 };
