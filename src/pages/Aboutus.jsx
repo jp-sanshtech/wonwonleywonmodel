@@ -12,20 +12,8 @@ const Aboutus = () => {
         className={classes.navLink}
         style={{ flexDirection: 'column', alignItems: 'flex-start', padding: '1rem' }}
       >
-        <p>
-        we are a model agency, currently focused on female models. many of our models are also influencers/content creators. we hope our agency can support these models to become the best version of themselves.
-        </p>
-        <p style={{ margin: 0 }}>
-          we are a company of the{" "}
-          <a
-            href="https://www.wonwonleywon.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "black", textDecoration: "underline" }}
-          >
-            wonwonleywon
-          </a>
-          {" "}fashion brand.
+         <p>
+          to become one of our models, work with us, hire our models, or for any other questions, email us at  <a href="mailto:support@wonwonleywonmodels.com">support@wonwonleywonmodels.com</a>.
         </p>
       </Line>
     </div>
