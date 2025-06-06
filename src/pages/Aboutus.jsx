@@ -5,19 +5,23 @@ import BackButton from '../components/main/BackButton.jsx';
 
 const Aboutus = () => {
   return (
-    <div className={classes.links}>
+    <>
       <BackButton />
       <Line
-        to="/world/oneofoneluxury"
         className={classes.navLink}
-        style={{ flexDirection: 'column', alignItems: 'flex-start', padding: '1rem' }}
+         style={{
+           display: "flex",
+           alignItems: "center",
+           padding: "1rem",
+           flexWrap: "wrap",
+          }}
       >
-        <p>
+       
           We are a model agency, currently focused on female models. 
           Many of our models are also influencers/content creators. 
           We hope our agency can support these models to become the best version of themselves.
-        </p>
-        <p>
+   
+        <p style={{ marginLeft: "-7px" }}>
           We are a company of the 
           <a
             href="https://www.wonwonleywon.com"
@@ -30,7 +34,7 @@ const Aboutus = () => {
           fashion brand.
         </p>
       </Line>
-    </div>
+    </>
   );
 };
 
