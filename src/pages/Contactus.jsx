@@ -19,7 +19,7 @@ const Contactus = () => {
       >
       
           to become one of our models, work with us, hire our models, or for any other questions, email us at   <a
-          href="mailto:support@wonwonleywonmusic.com"
+          href="mailto:support@wonwonleywonmodels.com"
           style={{
             color: "black",
             textDecoration: "underline",
